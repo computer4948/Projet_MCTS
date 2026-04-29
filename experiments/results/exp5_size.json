@@ -1,0 +1,45 @@
+{
+  "params": {
+    "sizes": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "budget": 150,
+    "games": 8,
+    "seed": 2030,
+    "out": "experiments/results/exp5_size.json"
+  },
+  "results": [
+    {
+      "size": 4,
+      "winrate": 0.875,
+      "avg_time_grave": 0.06670647499993265,
+      "avg_time_flat": 0.044205899999951725,
+      "duration_s": 0.8890394000000015
+    },
+    {
+      "size": 5,
+      "winrate": 0.75,
+      "avg_time_grave": 0.211820800000055,
+      "avg_time_flat": 0.15686292500015497,
+      "duration_s": 2.9533722999999554
+    },
+    {
+      "size": 6,
+      "winrate": 0.5,
+      "avg_time_grave": 0.6334437500001968,
+      "avg_time_flat": 0.4994061500000271,
+      "duration_s": 9.07119479999983
+    },
+    {
+      "size": 7,
+      "winrate": 0.75,
+      "avg_time_grave": 1.4688417125001934,
+      "avg_time_flat": 1.1436038499996357,
+      "duration_s": 20.91441180000038
+    }
+  ],
+  "duration_s": 33.828605700000026
+}

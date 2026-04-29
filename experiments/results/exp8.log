@@ -1,0 +1,19 @@
+--- PUCT c_puct sweep ---
+  c_puct=0.3: wr=0.62 [0.39,0.82]
+  c_puct=0.7: wr=0.69 [0.44,0.86]
+  c_puct=1.5: wr=0.81 [0.57,0.93]
+  c_puct=3.0: wr=0.81 [0.57,0.93]
+  c_puct=5.0: wr=0.81 [0.57,0.93]
+--- GRAVE ref_min sweep ---
+  ref_min=10: wr=0.81 [0.57,0.93]
+  ref_min=25: wr=0.94 [0.72,0.99]
+  ref_min=50: wr=0.81 [0.57,0.93]
+  ref_min=100: wr=0.81 [0.57,0.93]
+  ref_min=200: wr=0.75 [0.51,0.90]
+--- UCT-biased temperature sweep ---
+  T=0.5: wr=0.69 [0.44,0.86]
+  T=1.0: wr=0.94 [0.72,0.99]
+  T=2.0: wr=0.94 [0.72,0.99]
+  T=4.0: wr=0.81 [0.57,0.93]
+
+Durée : 184.2s, sortie : experiments/results/exp8_hyperparams.json

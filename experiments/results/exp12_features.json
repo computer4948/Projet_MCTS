@@ -1,0 +1,75 @@
+{
+  "params": {
+    "size": 5,
+    "budget": 200,
+    "games": 32,
+    "level": 1,
+    "seed": 2051,
+    "out": "experiments/results/exp12_features.json"
+  },
+  "vs_flat": [
+    {
+      "feature_set": "simple",
+      "wins": 1,
+      "losses": 31,
+      "n": 32,
+      "winrate": 0.03125,
+      "ci_lo": 0.005537717362550945,
+      "ci_hi": 0.15744607800372734,
+      "duration_s": 84.31634510000004
+    },
+    {
+      "feature_set": "pattern",
+      "wins": 1,
+      "losses": 31,
+      "n": 32,
+      "winrate": 0.03125,
+      "ci_lo": 0.005537717362550945,
+      "ci_hi": 0.15744607800372734,
+      "duration_s": 85.36120389999996
+    },
+    {
+      "feature_set": "combined",
+      "wins": 4,
+      "losses": 28,
+      "n": 32,
+      "winrate": 0.125,
+      "ci_lo": 0.04970053844474301,
+      "ci_hi": 0.2806864978482796,
+      "duration_s": 137.21177290000196
+    }
+  ],
+  "vs_nrpa": [
+    {
+      "feature_set": "simple",
+      "wins": 19,
+      "losses": 13,
+      "n": 32,
+      "winrate": 0.59375,
+      "ci_lo": 0.4225972657298823,
+      "ci_hi": 0.744805975196862,
+      "duration_s": 80.72383139999874
+    },
+    {
+      "feature_set": "pattern",
+      "wins": 21,
+      "losses": 11,
+      "n": 32,
+      "winrate": 0.65625,
+      "ci_lo": 0.4831077350878594,
+      "ci_hi": 0.7958976664567146,
+      "duration_s": 79.11056090000056
+    },
+    {
+      "feature_set": "combined",
+      "wins": 17,
+      "losses": 15,
+      "n": 32,
+      "winrate": 0.53125,
+      "ci_lo": 0.3644923793257382,
+      "ci_hi": 0.6913087009831766,
+      "duration_s": 133.9779305000011
+    }
+  ],
+  "duration_s": 600.7020215000011
+}

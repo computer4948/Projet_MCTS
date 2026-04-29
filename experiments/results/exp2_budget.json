@@ -1,0 +1,154 @@
+{
+  "params": {
+    "size": 5,
+    "baseline_budget": 200,
+    "budgets": [
+      50,
+      100,
+      200,
+      400
+    ],
+    "games": 16,
+    "seed": 2027,
+    "out": "experiments/results/exp2_budget.json"
+  },
+  "results": {
+    "UCT": [
+      {
+        "budget": 50,
+        "winrate": 0.5,
+        "wins": 8,
+        "losses": 8,
+        "avg_time_per_move": 0.06856121249981584,
+        "duration_s": 4.654978999999912
+      },
+      {
+        "budget": 100,
+        "winrate": 0.25,
+        "wins": 4,
+        "losses": 12,
+        "avg_time_per_move": 0.13993607500023586,
+        "duration_s": 5.891220400000293
+      },
+      {
+        "budget": 200,
+        "winrate": 0.625,
+        "wins": 10,
+        "losses": 6,
+        "avg_time_per_move": 0.28180633749991557,
+        "duration_s": 8.148736800000279
+      },
+      {
+        "budget": 400,
+        "winrate": 0.6875,
+        "wins": 11,
+        "losses": 5,
+        "avg_time_per_move": 0.5896209624999358,
+        "duration_s": 13.13365849999991
+      }
+    ],
+    "RAVE": [
+      {
+        "budget": 50,
+        "winrate": 0.6875,
+        "wins": 11,
+        "losses": 5,
+        "avg_time_per_move": 0.07284751875002371,
+        "duration_s": 4.775768699999844
+      },
+      {
+        "budget": 100,
+        "winrate": 0.625,
+        "wins": 10,
+        "losses": 6,
+        "avg_time_per_move": 0.13801870625002266,
+        "duration_s": 5.632044200000109
+      },
+      {
+        "budget": 200,
+        "winrate": 0.75,
+        "wins": 12,
+        "losses": 4,
+        "avg_time_per_move": 0.28445641250007725,
+        "duration_s": 8.034998000000087
+      },
+      {
+        "budget": 400,
+        "winrate": 0.875,
+        "wins": 14,
+        "losses": 2,
+        "avg_time_per_move": 0.5782023187501295,
+        "duration_s": 12.800084699999843
+      }
+    ],
+    "GRAVE": [
+      {
+        "budget": 50,
+        "winrate": 0.5625,
+        "wins": 9,
+        "losses": 7,
+        "avg_time_per_move": 0.0895858687501061,
+        "duration_s": 5.801775599999928
+      },
+      {
+        "budget": 100,
+        "winrate": 0.625,
+        "wins": 10,
+        "losses": 6,
+        "avg_time_per_move": 0.1662303437500725,
+        "duration_s": 6.699283899999955
+      },
+      {
+        "budget": 200,
+        "winrate": 0.875,
+        "wins": 14,
+        "losses": 2,
+        "avg_time_per_move": 0.3159259687499798,
+        "duration_s": 8.891066499999852
+      },
+      {
+        "budget": 400,
+        "winrate": 0.8125,
+        "wins": 13,
+        "losses": 3,
+        "avg_time_per_move": 0.5703677499997752,
+        "duration_s": 12.682530500000212
+      }
+    ],
+    "PUCT": [
+      {
+        "budget": 50,
+        "winrate": 0.625,
+        "wins": 10,
+        "losses": 6,
+        "avg_time_per_move": 0.08224709375005546,
+        "duration_s": 4.663733299999876
+      },
+      {
+        "budget": 100,
+        "winrate": 0.9375,
+        "wins": 15,
+        "losses": 1,
+        "avg_time_per_move": 0.19085844375007355,
+        "duration_s": 6.822094499999821
+      },
+      {
+        "budget": 200,
+        "winrate": 0.875,
+        "wins": 14,
+        "losses": 2,
+        "avg_time_per_move": 0.32159043749996385,
+        "duration_s": 8.6498231999999
+      },
+      {
+        "budget": 400,
+        "winrate": 0.9375,
+        "wins": 15,
+        "losses": 1,
+        "avg_time_per_move": 0.594744756250094,
+        "duration_s": 12.827521600000182
+      }
+    ]
+  },
+  "duration_s": 130.10964280000007
+}

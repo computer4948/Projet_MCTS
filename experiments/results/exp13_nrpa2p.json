@@ -1,0 +1,56 @@
+{
+  "params": {
+    "size": 5,
+    "budget": 200,
+    "games": 50,
+    "seed": 2050,
+    "out": "experiments/results/exp13_nrpa2p.json"
+  },
+  "results": [
+    {
+      "a": "NRPA-2P-L1",
+      "b": "Flat",
+      "wins": 4,
+      "losses": 46,
+      "n": 50,
+      "winrate": 0.08,
+      "ci_lo": 0.031549003255790686,
+      "ci_hi": 0.18838502545063704,
+      "duration_s": 59.91760470000008
+    },
+    {
+      "a": "NRPA-2P-L2",
+      "b": "Flat",
+      "wins": 3,
+      "losses": 47,
+      "n": 50,
+      "winrate": 0.06,
+      "ci_lo": 0.020614596364630478,
+      "ci_hi": 0.16217343370877002,
+      "duration_s": 70.94884219999949
+    },
+    {
+      "a": "NRPA-2P-L1",
+      "b": "NRPA-L1",
+      "wins": 28,
+      "losses": 22,
+      "n": 50,
+      "winrate": 0.56,
+      "ci_lo": 0.4230578680014353,
+      "ci_hi": 0.6883801278976466,
+      "duration_s": 98.4109884999998
+    },
+    {
+      "a": "NRPA-2P-L2",
+      "b": "NRPA-L2",
+      "wins": 25,
+      "losses": 25,
+      "n": 50,
+      "winrate": 0.5,
+      "ci_lo": 0.36644286412332855,
+      "ci_hi": 0.6335571358766714,
+      "duration_s": 76.79096860000209
+    }
+  ],
+  "duration_s": 306.06891720000203
+}

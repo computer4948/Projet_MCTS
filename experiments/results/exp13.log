@@ -1,0 +1,13 @@
+--- vs Flat ---
+  NRPA-2P-L1 vs Flat ...
+     -> 1-15  wr=0.06 [0.01,0.28]  (18.2s)
+  NRPA-2P-L2 vs Flat ...
+     -> 0-16  wr=0.00 [0.00,0.19]  (16.4s)
+
+--- vs NRPA classique (même niveau) ---
+  NRPA-2P-L1 vs NRPA-L1 ...
+     -> 10-6  wr=0.62 [0.39,0.82]  (21.9s)
+  NRPA-2P-L2 vs NRPA-L2 ...
+     -> 5-11  wr=0.31 [0.14,0.56]  (22.5s)
+
+Durée : 79.0s, sortie : experiments/results/exp13_nrpa2p.json

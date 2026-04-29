@@ -1,0 +1,64 @@
+{
+  "params": {
+    "size": 5,
+    "budget": 200,
+    "games": 16,
+    "seed": 2034,
+    "out": "experiments/results/exp10_ppatcs.json"
+  },
+  "results": [
+    {
+      "a": "PPATCS-L1",
+      "b": "Flat",
+      "wins": 1,
+      "losses": 15,
+      "n": 16,
+      "winrate": 0.0625,
+      "ci_lo": 0.01111905730833121,
+      "ci_hi": 0.2832926836802987,
+      "avg_time_a": 1.9182252562495705,
+      "avg_time_b": 0.23641075624800578,
+      "duration_s": 34.483622300002025
+    },
+    {
+      "a": "PPATCS-L2",
+      "b": "Flat",
+      "wins": 0,
+      "losses": 16,
+      "n": 16,
+      "winrate": 0.0,
+      "ci_lo": 0.0,
+      "ci_hi": 0.19361341827271994,
+      "avg_time_a": 1.8432211124995774,
+      "avg_time_b": 0.22933911250129313,
+      "duration_s": 33.17060389999824
+    },
+    {
+      "a": "PPATCS-L2",
+      "b": "NRPA-L2",
+      "wins": 5,
+      "losses": 11,
+      "n": 16,
+      "winrate": 0.3125,
+      "ci_lo": 0.14164435051961052,
+      "ci_hi": 0.5559606813326594,
+      "avg_time_a": 1.9186822937504076,
+      "avg_time_b": 0.570503656251276,
+      "duration_s": 39.83589990000473
+    },
+    {
+      "a": "PPATCS-L1",
+      "b": "NRPA-L1",
+      "wins": 6,
+      "losses": 10,
+      "n": 16,
+      "winrate": 0.375,
+      "ci_lo": 0.18480982554752806,
+      "ci_hi": 0.613593529020652,
+      "avg_time_a": 1.989649431248381,
+      "avg_time_b": 0.586439487500229,
+      "duration_s": 41.226661700005934
+    }
+  ],
+  "duration_s": 148.7170427999954
+}

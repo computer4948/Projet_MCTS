@@ -1,0 +1,56 @@
+{
+  "params": {
+    "size": 5,
+    "budget": 200,
+    "games": 16,
+    "seed": 2031,
+    "out": "experiments/results/exp7_levels.json"
+  },
+  "results": [
+    {
+      "name": "NMCS-L1",
+      "wins": 0,
+      "losses": 16,
+      "n": 16,
+      "winrate": 0.0,
+      "ci_lo": 0.0,
+      "ci_hi": 0.19361341827271994,
+      "avg_time": 0.014618049998489369,
+      "duration_s": 3.982913899999403
+    },
+    {
+      "name": "NMCS-L2",
+      "wins": 2,
+      "losses": 14,
+      "n": 16,
+      "winrate": 0.125,
+      "ci_lo": 0.034976749337057134,
+      "ci_hi": 0.3602333143674828,
+      "avg_time": 0.6312963437501367,
+      "duration_s": 15.560449299999163
+    },
+    {
+      "name": "NRPA-L1",
+      "wins": 4,
+      "losses": 12,
+      "n": 16,
+      "winrate": 0.25,
+      "ci_lo": 0.10181901984237346,
+      "ci_hi": 0.49498768929398645,
+      "avg_time": 0.939025075001382,
+      "duration_s": 21.08029119999992
+    },
+    {
+      "name": "NRPA-L2",
+      "wins": 1,
+      "losses": 15,
+      "n": 16,
+      "winrate": 0.0625,
+      "ci_lo": 0.01111905730833121,
+      "ci_hi": 0.2832926836802987,
+      "avg_time": 0.9021285562489538,
+      "duration_s": 20.45859940000082
+    }
+  ],
+  "duration_s": 61.0823610999978
+}

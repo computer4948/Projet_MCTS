@@ -1,0 +1,104 @@
+{
+  "params": {
+    "size": 5,
+    "budget": 200,
+    "games": 16,
+    "seed": 2035,
+    "out": "experiments/results/exp11_extended.json"
+  },
+  "extended": [
+    {
+      "a": "MAST",
+      "b": "Flat",
+      "wins": 12,
+      "losses": 4,
+      "n": 16,
+      "winrate": 0.75,
+      "ci_lo": 0.5050123107060135,
+      "ci_hi": 0.8981809801576265,
+      "duration_s": 9.461303399999451
+    },
+    {
+      "a": "SHOT",
+      "b": "Flat",
+      "wins": 13,
+      "losses": 3,
+      "n": 16,
+      "winrate": 0.8125,
+      "ci_lo": 0.5699064013154177,
+      "ci_hi": 0.9340852122641324,
+      "duration_s": 7.376222899998538
+    },
+    {
+      "a": "GNRPA-L2",
+      "b": "Flat",
+      "wins": 4,
+      "losses": 12,
+      "n": 16,
+      "winrate": 0.25,
+      "ci_lo": 0.10181901984237346,
+      "ci_hi": 0.49498768929398645,
+      "duration_s": 32.09102610000264
+    },
+    {
+      "a": "GNRPA-L1",
+      "b": "NRPA-L1",
+      "wins": 10,
+      "losses": 6,
+      "n": 16,
+      "winrate": 0.625,
+      "ci_lo": 0.3864064709793481,
+      "ci_hi": 0.815190174452472,
+      "duration_s": 37.43384199999855
+    },
+    {
+      "a": "GNRPA-L2",
+      "b": "NRPA-L2",
+      "wins": 12,
+      "losses": 4,
+      "n": 16,
+      "winrate": 0.75,
+      "ci_lo": 0.5050123107060135,
+      "ci_hi": 0.8981809801576265,
+      "duration_s": 37.82820679999713
+    }
+  ],
+  "misere": [
+    {
+      "a": "UCT-misere",
+      "b": "Flat-misere",
+      "wins": 14,
+      "losses": 2,
+      "n": 16,
+      "winrate": 0.875,
+      "ci_lo": 0.6397666856325173,
+      "ci_hi": 0.9650232506629428,
+      "duration_s": 8.69895560000441
+    },
+    {
+      "a": "NMCS-L1-misere",
+      "b": "Flat-misere",
+      "wins": 2,
+      "losses": 14,
+      "n": 16,
+      "winrate": 0.125,
+      "ci_lo": 0.034976749337057134,
+      "ci_hi": 0.3602333143674828,
+      "duration_s": 3.982298900002206
+    }
+  ],
+  "discounted_nmcs": [
+    {
+      "a": "NMCS-L1-disc",
+      "b": "NMCS-L1",
+      "wins": 9,
+      "losses": 7,
+      "n": 16,
+      "winrate": 0.5625,
+      "ci_lo": 0.33178195606776517,
+      "ci_hi": 0.7690163666481448,
+      "duration_s": 0.5472332999997889
+    }
+  ],
+  "duration_s": 137.4202934999994
+}

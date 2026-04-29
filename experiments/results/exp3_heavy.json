@@ -1,0 +1,72 @@
+{
+  "params": {
+    "size": 5,
+    "budget": 200,
+    "games": 16,
+    "seed": 2028,
+    "out": "experiments/results/exp3_heavy.json"
+  },
+  "results": [
+    {
+      "a": "UCT-biased",
+      "b": "UCT-random",
+      "winrate": 0.6875,
+      "wins": 11,
+      "losses": 5,
+      "avg_time_a": 0.5305187687499711,
+      "avg_time_b": 0.2780322999999214,
+      "duration_s": 12.944992900000216
+    },
+    {
+      "a": "UCT-epsilon",
+      "b": "UCT-random",
+      "winrate": 0.6875,
+      "wins": 11,
+      "losses": 5,
+      "avg_time_a": 0.4123144374999015,
+      "avg_time_b": 0.2664251625000702,
+      "duration_s": 10.867700599999807
+    },
+    {
+      "a": "RAVE-biased",
+      "b": "RAVE-random",
+      "winrate": 0.6875,
+      "wins": 11,
+      "losses": 5,
+      "avg_time_a": 0.47665335625009675,
+      "avg_time_b": 0.29597564999997417,
+      "duration_s": 12.37045390000003
+    },
+    {
+      "a": "RAVE-epsilon",
+      "b": "RAVE-random",
+      "winrate": 0.9375,
+      "wins": 15,
+      "losses": 1,
+      "avg_time_a": 0.3939717249998864,
+      "avg_time_b": 0.29382300624990876,
+      "duration_s": 11.01307480000014
+    },
+    {
+      "a": "GRAVE-biased",
+      "b": "GRAVE-random",
+      "winrate": 0.8125,
+      "wins": 13,
+      "losses": 3,
+      "avg_time_a": 0.4336531687498848,
+      "avg_time_b": 0.2930480812499354,
+      "duration_s": 11.635480400000233
+    },
+    {
+      "a": "GRAVE-epsilon",
+      "b": "GRAVE-random",
+      "winrate": 0.625,
+      "wins": 10,
+      "losses": 6,
+      "avg_time_a": 0.3718231374998595,
+      "avg_time_b": 0.2979403687498916,
+      "duration_s": 10.724581699999817
+    }
+  ],
+  "duration_s": 69.5566060000001
+}

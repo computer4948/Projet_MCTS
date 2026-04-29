@@ -1,0 +1,11 @@
+--- PPATCS (level=1, budget=200) x 3 feature sets vs Flat ---
+  PPATCS(simple): 1-15 wr=0.06 [0.01, 0.28] (36.3s)
+  PPATCS(pattern): 0-16 wr=0.00 [0.00, 0.19] (39.2s)
+  PPATCS(combined): 3-13 wr=0.19 [0.07, 0.43] (66.1s)
+
+--- PPATCS (level=1) x 3 feature sets vs NRPA-L1 ---
+  PPATCS(simple): 5-11 wr=0.31 [0.14, 0.56] (42.4s)
+  PPATCS(pattern): 10-6 wr=0.62 [0.39, 0.82] (39.0s)
+  PPATCS(combined): 9-7 wr=0.56 [0.33, 0.77] (65.9s)
+
+Durée : 288.9s, sortie : experiments/results/exp12_features.json
